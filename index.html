@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afthab Rahman | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Theme Toggle Button -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div id="navLogo" class="nav-logo">
+                <div class="nav-logo-img">
+                    <img src="./images/afth.png" alt="Afthab Rahman">
+                </div>
+                <span class="nav-logo-text">Afthab Rahman</span>
+            </div>
+
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#leadership" class="nav-link">Leadership</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <button id="mobileMenuButton" class="md:hidden">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <div id="mobileMenu" class="mobile-menu nav-hidden">
+            <div class="flex flex-col p-4 space-y-4">
+                <a href="#about" class="nav-link py-2">About</a>
+                <a href="#skills" class="nav-link py-2">Skills</a>
+                <a href="#experience" class="nav-link py-2">Experience</a>
+                <a href="#projects" class="nav-link py-2">Projects</a>
+                <a href="#leadership" class="nav-link py-2">Leadership</a>
+                <a href="#contact" class="nav-link py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section flex items-center">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
+                    <div class="profile-img">
+                        <img src="./images/afth.png" alt="Afthab Rahman">
+                    </div>
+                </div>
+                <div class="md:w-2/3 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Afthab Rahman</h1>
+                    <h2 class="text-xl md:text-2xl text-secondary mb-6">
+                        <span id="typed-text"></span>
+                        <span class="cursor"></span>
+                    </h2>
+                    <p class="text-lg mb-4">
+                        Hello! I'm a Computer Science Engineering student at
+                        <a href="https://icet.ac.in" target="_blank" rel="noopener noreferrer"
+                            class="text-link">Ilahia College of Engineering and Technology, Muvattupuzha</a>.
+                    </p>
+                    <p class="text-lg mb-4">
+                        I'm passionate about building meaningful digital solutions. With hands-on experience in UI
+                        design, Frontend Development and Full-stack Web Applications, I love turning complex ideas into
+                        user-friendly experiences.
+                    </p>
+                    <p class="text-lg">
+                        If you're looking for a collaborator on innovative projects or open-source initiatives, I'd be
+                        thrilled to connect and create something impactful together!
+                    </p>
+                    <br>
+                    <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mb-6">
+                        <a href="https://maps.app.goo.gl/XXy17FUCckNUt5Qw8" target="_blank" class="btn btn-location">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Perumbavoor, Kerala</span>
+                        </a>
+                        <a href="mailto:afthabr88@gmail.com" target="_blank" class="btn btn-email">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>afthabr88@gmail.com</span>
+                        </a>
+                        <a href="tel:+917736174875" target="_blank" class="btn btn-phone">
+                            <i class="fas fa-phone mr-2"></i>
+                            <span>+91 77361 74875</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/afthaab-rahman" target="_blank" class="btn btn-linkedin">
+                            <i class="fab fa-linkedin mr-2"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/4fthaab" target="_blank" class="btn btn-github">
+                            <i class="fab fa-github mr-2"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-10 section-alt">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title">Skills</h2>
+            <div class="overflow-hidden">
+                <div class="carousel-line flex space-x-6 animate-scroll-left"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="w-12 h-12 mr-4 flex items-center justify-center">
+                                    <img src="./images/nest.jpeg" alt="NeST Digital" class="w-18 h-18">
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Frontend Developer Intern</h3>
+                                    <p class="text-secondary"><a href="https://www.nestdigital.com" target="_blank"
+                                            class="text-link">NeST Digital</a></p>
+                                </div>
+                            </div>
+                            <span class="badge">March 2025 – April 2025</span>
+                        </div>
+                        <p class="text-secondary">Contributed to the development of responsive and dynamic web
+                            applications, including eKart and CookMate, using Angular. Designed and implemented modular
+                            UI components, optimized routing and navigation, and integrated REST APIs to fetch and
+                            display live data.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="w-12 h-12 mr-4 flex items-center justify-center bg-white rounded-lg border">
+                                    <img src="./images/techmaghi.png" alt="Techmaghi" class="w-18 h-18">
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Data Science Intern</h3>
+                                    <p class="text-secondary"><a href="https://www.techmaghi.com" target="_blank"
+                                            class="text-link">Techmaghi LLP</a></p>
+                                </div>
+                            </div>
+                            <span class="badge">October 2024</span>
+                        </div>
+                        <p class="text-secondary">Developed a Movie Recommendation System in Python leveraging
+                            genre-based filtering and review-based ranking to provide personalized suggestions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section py-16 section-alt">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./images/grabngo.png" alt="Grab N Go Project">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Grab N Go: Supermarket Assistant</h3>
+                        <p class="text-secondary mb-4">Led a team to develop a full-stack web application using Python Flask and Firebase,
+                            featuring item search with interactive mini-map highlights.</p>
+                        <a href="https://grab-and-go-0gmo.onrender.com/" class="text-link font-semibold" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./images/movierecom.png" alt="Movie Recommendation System">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Movie Recommendation System</h3>
+                        <p class="text-secondary mb-4">Built a recommendation engine that suggests movies from a dataset of 10,330 titles and
+                            105,340 ratings based on popularity or user-selected genres.</p>
+                        <a href="https://github.com/4fthaab/movierecommendationsystem" class="text-link font-semibold" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="./images/cookmate.png" alt="CookMate">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">CookMate</h3>
+                        <p class="text-secondary mb-4">A dynamic recipe web application using Angular, leveraging reusable components to
+                            efficiently display multiple food recipes with REST API integration.</p>
+                        <a href="https://github.com/4fthaab/cookmate" class="text-link font-semibold" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="section py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title">Influence & Impact</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="icon-box">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Technical Co-Lead</h3>
+                                    <p class="text-secondary">Innovation and Entreprenuership Development Club - IEDC</p>
+                                </div>
+                            </div>
+                            <span class="badge">July 2025 – Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="icon-box">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Student Coordinator</h3>
+                                    <p class="text-secondary">Technovalley Technology Club</p>
+                                </div>
+                            </div>
+                            <span class="badge">January 2025 – Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="icon-box">
+                                    <i class="fas fa-hands-helping"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Executive Member</h3>
+                                    <p class="text-secondary">Youth Red Cross, Unit No : 32</p>
+                                </div>
+                            </div>
+                            <span class="badge">2023 – Present</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="icon-box">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">Newsletter Editor</h3>
+                                    <p class="text-secondary">Department of CSE</p>
+                                </div>
+                            </div>
+                            <span class="badge">2023 – 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="card">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div class="flex items-center mb-2 md:mb-0">
+                                <div class="icon-box">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold">College Union Member</h3>
+                                    <p class="text-secondary">Class Representative</p>
+                                </div>
+                            </div>
+                            <span class="badge">2023 – 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section py-16 section-alt">
+        <div class="container mx-auto px-4">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="max-w-2xl mx-auto card">
+                <form id="contactForm">
+                    <div class="mb-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="from_name" class="form-input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="from_email" class="form-input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" class="form-input" placeholder="Write your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                </form>
+            </div>
+
+            <div class="mt-12 text-center">
+                <div class="flex flex-col sm:flex-row justify-center items-center sm:space-x-8 space-y-4 sm:space-y-0 mb-6">
+                    <a href="mailto:afthabr88@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope mr-2"></i> afthabr88@gmail.com
+                    </a>
+                    <a href="tel:+917736174875" class="contact-link">
+                        <i class="fas fa-phone mr-2"></i> +91 77361 74875
+                    </a>
+                </div>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://www.linkedin.com/in/afthaab-rahman" class="social-link">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/4fthaab" class="social-link">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Afthab Rahman. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
