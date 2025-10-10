@@ -1,6 +1,6 @@
 # Afthab Rahman - Portfolio
 
-A modern, responsive portfolio website with dark/light mode toggle.
+A modern, responsive portfolio website with working emailjs contact me support.
 
 The work is deployed at : [afthabrahman.tech](https://www.afthabrahman.tech)
 
