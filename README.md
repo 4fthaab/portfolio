@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website with dark/light mode toggle.
 
+The work is deployed at : [afthabrahman.tech](https://www.afthabrahman.tech)
+
 ## 🚀 Quick Start
 
 1. Clone the repository
